@@ -1,0 +1,543 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=New+Tegomin&family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=New+Tegomin&family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header-general__btn button {
+  width: 222px;
+  height: 48px;
+  left: 135px;
+  top: 562px;
+  background: #FD8415;
+  border-radius: 15px;
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  padding-right: 5px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.header-general__btn button:hover {
+  background: rgba(240, 248, 255, 0.47);
+}
+
+.o-nas-general__photo1 button {
+  width: 222px;
+  height: 48px;
+  left: 135px;
+  top: 562px;
+  background: #FD8415;
+  border-radius: 15px;
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  padding-right: 5px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.o-nas-general__photo1 button:hover {
+  background: rgba(240, 248, 255, 0.47);
+}
+
+.gallery-general button {
+  width: 222px;
+  height: 48px;
+  left: 135px;
+  top: 562px;
+  background: #FD8415;
+  border-radius: 15px;
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  padding-right: 5px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.gallery-general button:hover {
+  background: rgba(240, 248, 255, 0.47);
+}
+
+.tabs-general__inputs__btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: transparent;
+}
+.tabs-general__inputs button {
+  width: 430px;
+  height: 66px;
+  left: 505px;
+  top: 7229px;
+  background: #FD8415;
+  border-radius: 30px;
+  font-size: 20px;
+  transition: 0.4s;
+  margin-bottom: 40px;
+}
+.tabs-general__inputs button:hover {
+  background: rgba(240, 248, 255, 0.28);
+}
+
+#hero {
+  background: url("../img/fon.png") no-repeat center/cover;
+  min-height: 100vh;
+}
+#hero .hero-general__gen img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 214px;
+  padding-left: 454px;
+  padding-bottom: 8px;
+}
+#hero .hero-general__gen h1 {
+  text-align: center;
+  font-family: "New Tegomin", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+#hero .hero-general__gen p {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#hero .hero-general__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .hero-general__title h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  color: #FFFFFF;
+  padding-top: 200px;
+  padding-bottom: 82px;
+}
+
+#header {
+  background: url("../img/fon.png") no-repeat center/cover;
+  min-height: 100vh;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-top: 10px;
+}
+#header .header-general {
+  background: rgba(196, 196, 196, 0.1);
+  backdrop-filter: blur(5px);
+  transform: matrix(1, 0, 0, 1, 0, 1);
+  margin-top: 20px;
+}
+#header .header-general__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+}
+#header .header-general__nav a {
+  font-family: "New Tegomin", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+#header .header-general__nav__logo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 104px;
+}
+#header .header-general__nav__logo2 img {
+  width: 58px;
+  height: 34px;
+}
+#header .header-general__nav__logo2 p {
+  font-size: 14px;
+}
+#header .header-general__nav__logo2 p {
+  font-family: "New Tegomin", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+#header .header-general__lin {
+  width: 100%;
+  background: gray;
+  height: 2px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  border: -1px solid #FFFFFF;
+}
+#header .header-general__title {
+  padding-top: 153px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header-general__title h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  color: #FFFFFF;
+}
+#header .header-general__title p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+#header .header-general__title__icon {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#o-nas {
+  background: url("../img/fon2.png") no-repeat center/cover;
+  margin-top: 10px;
+}
+#o-nas .o-nas-general h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 67px;
+  padding-top: 80px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#o-nas .o-nas-general img {
+  width: 485px;
+  height: 453px;
+  margin-top: 110px;
+  margin-left: -55px;
+}
+#o-nas .o-nas-general h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  color: #FFFFFF;
+  padding-top: 125px;
+}
+#o-nas .o-nas-general__photo1 {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#o-nas .o-nas-general__photo2 {
+  padding-bottom: 100px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#o-nas .o-nas-general__photo2 img {
+  width: 326px;
+  height: 287px;
+}
+#o-nas .o-nas-general__photo2__block {
+  text-align: center;
+  width: 406px;
+  height: 520px;
+  margin-left: 20px;
+  margin-right: 70px;
+  background: transparent;
+  border: 2px solid #FD8415;
+  border-radius: 15px;
+}
+#o-nas .o-nas-general__photo2__block h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 37px;
+  color: #FFFFFF;
+  padding-top: 55px;
+}
+#o-nas .o-nas-general__photo2__block p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#gallery {
+  background: url("../img/fon3.png") no-repeat center/cover;
+}
+#gallery .gallery-general p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  color: #FFFFFF;
+  padding-top: -5px;
+}
+#gallery .gallery-general h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 67px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 5px;
+  padding: 50px 0;
+}
+#gallery .gallery-general__gen {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#gallery .gallery-general__gen__gen1 {
+  display: flex;
+  flex-direction: column;
+}
+#gallery .gallery-general__gen__gen2 {
+  display: flex;
+  flex-direction: column;
+}
+#gallery .gallery-general__gen__gen3 {
+  display: flex;
+  flex-direction: column;
+}
+#gallery .gallery-general__gen__gen3__block1 {
+  width: 352px;
+  height: 354px;
+  background: #FD8415;
+  border-radius: 15px;
+}
+#gallery .gallery-general__gen__gen3__block1 h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  padding-top: 100px;
+  color: #FFFFFF;
+}
+
+#koment {
+  background: url("../img/fon4.png") no-repeat center/cover;
+  margin-top: 5px;
+}
+#koment .koment-general {
+  padding: 40px 0;
+}
+#koment .koment-general h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 67px;
+  padding: 40px 0;
+  text-align: center;
+  color: #FFFFFF;
+}
+#koment .koment-general__gen {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#koment .koment-general__gen__block {
+  width: 463px;
+  height: 520px;
+  left: 754px;
+  top: 4669px;
+  border: 2px solid #FD8415;
+  border-radius: 15px;
+}
+#koment .koment-general__gen__block__title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#koment .koment-general__gen__block__title h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+#koment .koment-general__gen__block__title h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+#koment .koment-general__gen__block__title__hh {
+  padding-right: 90px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#koment .koment-general__gen__block p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  padding-top: 30px;
+  color: #FFFFFF;
+}
+#koment .koment-general__sqr {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#koment .koment-general__sqr__square {
+  margin: 0 10px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: #FD8415;
+}
+
+#tabs {
+  background: url("../img/fon5.png") no-repeat center/cover;
+}
+#tabs .tabs-general h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 67px;
+  text-align: center;
+  margin: 5px 0;
+  padding: 40px 0;
+  color: #FFFFFF;
+}
+#tabs .tabs-general__gen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#tabs .tabs-general__gen h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 53px;
+  padding-right: 200px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+#tabs .tabs-general__tab {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#tabs .tabs-general__tab .label {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: aliceblue;
+  margin: 20px;
+}
+#tabs .tabs-general__tab input {
+  margin: 20px 30px;
+  background: #FFFFFF;
+  border: 50px;
+  border-radius: 15px;
+  width: 20px;
+  height: 50px;
+}
+#tabs .tabs-general p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+#tabs .tabs-general__inputs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#tabs .tabs-general__inputs input {
+  width: 430px;
+  height: 66px;
+  left: 505px;
+  top: 6941px;
+  border: 2px solid #FD8415;
+  border-radius: 30px;
+  background: transparent;
+  margin: 20px 0;
+}
+
+#footer {
+  background: #FD8415;
+  width: 100%;
+  height: 150px;
+}
+#footer .footer-general__gen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+#footer .footer-general__gen h1 {
+  font-family: "New Tegomin", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+#footer .footer-general__gen1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
